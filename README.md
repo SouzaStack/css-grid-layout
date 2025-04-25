@@ -138,14 +138,14 @@ O CSS Grid é essencial para qualquer dev moderno que quer criar layouts profiss
 📆 Grid - DevSamurai
 🗂️ 01 - Grid Template
 🗂️ 02 - Grid Gap
-🗂️ 03 - Grid auto columns
-🗂️ 04 - Grid auto rows
-🗂️ 05 - Grid auto flow
-🗂️ 06 - Grid column
-🗂️ 07 - Grid row
-🗂️ 08 - Grid area
+🗂️ 03 - Grid Auto Columns
+🗂️ 04 - Grid Auto Rows
+🗂️ 05 - Grid Auto Flow
+🗂️ 06 - Grid Column
+🗂️ 07 - Grid Row
+🗂️ 08 - Grid Area
 🗂️ 09 - Responsividade
 🗋 README.md
 ```
 
-##### Feito com 💻 por **Matheus Souza** - [@SouzaStack](https://github.com/SouzaStack)
+##### Feito com 👨‍💻 por **Matheus Souza** - [@SouzaStack](https://github.com/SouzaStack)
