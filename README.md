@@ -116,7 +116,7 @@ Adapta o layout para diferentes tamanhos de tela, garantindo uma boa experiênci
           "header"
           "nav"
           "body"
-          "footer";
+          "footer" !important;
     }
 }
 ```
