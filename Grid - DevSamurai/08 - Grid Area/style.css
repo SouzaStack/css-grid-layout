@@ -53,7 +53,7 @@ body {
     height: 100%;
 }
 
-/* Especificando cada Area e suas Cores */
+/* Especificando cada area e suas cores */
 .color-red {
     grid-area: header;
     background-color: var(--cor-red);
