@@ -9,37 +9,28 @@
 
 :root {
     --cor-body: #171717;
-    --cor-grid: #303030;
     --cor-red: #E2084A;
     --cor-green: #449D44;
     --cor-orange: #FB583D;
     --cor-white: #F9F9F9;
 }
 
-body {
-    background-color: #171717;
-    width: 100vw;
-    height: 100vh;
-}
-
-.flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* body cobre toda a viewport */
+html, body {
+    background-color: var(--cor-body);
+    height: 100vh;       /* garante 100% da altura da janela */
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 120px 500px;
-    grid-template-rows: 60px 500px 60px;
+    width: 100%;
+    height: 100%;       /* herda 100% de body/html */
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 60px 1fr 60px;
     grid-template-areas: 
     "header header"
     "nav body"
-    "nav footer"; /* Grid Area */
-    
-    background-color: #303030;
-    border: 1px solid #000;
+    "nav footer";       /* Grid Area */
 }
 
 .grid-item {
