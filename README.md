@@ -27,13 +27,20 @@ O CSS Grid é um sistema de layout que permite distribuir elementos em linhas e 
 ## 📚 Tópicos Estudados
 
 ### `01 - Grid Template`
-Definição de linhas e colunas com `grid-template-rows` e `grid-template-columns` na forma de **shorthand**.
+Definição de linhas e colunas com `grid-template-rows` e `grid-template-columns`, ou de forma abreviada com `grid-template`.
 ```css
 .grid {
     display: grid; /* Ativa o Grid */
     grid-template: auto auto / auto auto; /* Grid Template */
 }
 ```
+Essa declaração é o mesmo que:
+```css
+.grid {
+grid-template-rows: auto auto;
+grid-template-columns: auto auto;
+```
+Cria 2 linhas e 2 colunas com tamanhos automáticos, que se ajustam ao conteúdo.
 
 ### `02 - Grid Gap`
 Controla o espaçamento entre as células da grade, tanto em linhas `row-gap: 10px` quanto em colunas `column-gap: 5px`.
@@ -44,7 +51,7 @@ Controla o espaçamento entre as células da grade, tanto em linhas `row-gap: 10
 ```
 
 ### `03 - Grid Auto Columns`
-Define a largura padrão das colunas que forem adicionadas automaticamente.
+Define o tamanho das colunas geradas automaticamente.
 ```css
 .grid {
     display: grid;
@@ -54,7 +61,7 @@ Define a largura padrão das colunas que forem adicionadas automaticamente.
 ```
 
 ### `04 - Grid Auto Rows`
-Define a altura padrão das linhas que forem criadas automaticamente.
+Define o tamanho das linhas geradas automaticamente.
 ```css
 .grid {
     display: grid;
@@ -64,40 +71,40 @@ Define a altura padrão das linhas que forem criadas automaticamente.
 ```
 
 ### `05 - Grid Auto Flow`
-Controla a direção em que os itens são automaticamente colocados: linha ou coluna.
+Controla o fluxo automático dos itens (linha ou coluna).
 ```css
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 200px);
-    grid-auto-flow: column; /* Auto Flow */
+    grid-auto-flow: column; /* ou row - Auto Flow */
 }
 ```
 
 ### `06 - Grid Column`
-Permite definir em quais colunas um item começa e termina dentro da grade.
+Define onde o item começa e termina na coluna.
 ```css
 .grid-item {
-    grid-column: 2 / 5; /* Grid Column */
+    grid-column: 2 / 5; /* Vai da coluna 2 até a 5 - Grid Column */
 }
 ```
 
 ### `07 - Grid Row`
-Define a linha inicial e final de um item dentro da grade.
+Define onde o item começa e termina na linha.
 ```css
 .grid-item {
-    grid-row: 1 / 6; /* Grid Row */
+    grid-row: 1 / 6; /* Vai da linha 1 até a 6 - Grid Row */
 }
 ```
 
 ### `08 - Grid Area`
-Agrupa áreas nomeadas para posicionar itens com mais clareza e organização.
+Nomeia e posiciona áreas do grid.
 ```css
 .grid {
     grid-template-areas: 
         "header header"
         "nav body"
-        "nav footer"; /* Grid Area */
-}
+        "nav footer";
+} /* Grid Area */
 
 .grid-item .header { grid-area: header; } /* Area Header */
 .grid-item .nav { grid-area: nav; } /* Area Nav */
@@ -120,3 +127,24 @@ Adapta o layout para diferentes tamanhos de tela, garantindo uma boa experiênci
     }
 }
 ```
+
+## 💡 Conclusão
+
+O CSS Grid é essencial para qualquer dev moderno que quer criar layouts profissionais e responsivos. Com esses conceitos dominados, é possível criar desde pequenas interfaces até grandes sistemas com facilidade.
+
+## 📁 Estrutura deste repositório
+```c#
+📆 Grid - DevSamurai
+🗂️ 01 - Grid Template
+🗂️ 02 - Grid Gap
+🗂️ 03 - Grid auto columns
+🗂️ 04 - Grid auto rows
+🗂️ 05 - Grid auto flow
+🗂️ 06 - Grid column
+🗂️ 07 - Grid row
+🗂️ 08 - Grid area
+🗂️ 09 - Responsividade
+🗋 README.md
+```
+
+##### Feito com 💻 por **Matheus Souza** - [@SouzaStack](https://github.com/SouzaStack)
