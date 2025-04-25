@@ -108,18 +108,15 @@ Agrupa áreas nomeadas para posicionar itens com mais clareza e organização.
 ### `09 - Responsividade`
 Adapta o layout para diferentes tamanhos de tela, garantindo uma boa experiência em dispositivos móveis.
 ```css
-@media (max-width: 720px) {
+@media screen and (max-width: 1024px) {
     .grid {
-        display: flex;
-        flex-direction: column;
-        width: 80vw;
-        height: 100vh;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 80px 50px 1fr 80px !important;
+        grid-template-areas:
+          "header"
+          "nav"
+          "body"
+          "footer";
     }
-
-    /* Especificando cada altura */
-    .header {height: 15%;}
-    .nav {height: 5%;}
-    .body {height: 70%;}
-    .footer {height: 10%;}
 }
 ```
