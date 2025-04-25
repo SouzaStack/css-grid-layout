@@ -55,19 +55,7 @@ body {
 }
 
 /* Especificando cada area e suas cores */
-.header {
-    grid-area: header;
-    background-color: var(--cor-red);
-}
-.nav {
-    grid-area: nav;
-    background-color: var(--cor-green);
-}
-.body {
-    grid-area: body;
-    background-color: var(--cor-orange);
-}
-.footer {
-    grid-area: footer;
-    background-color: var(--cor-white);
-}
+.header { grid-area: header; background-color: var(--cor-red); }
+.nav { grid-area: nav; background-color: var(--cor-green); }
+.body { grid-area: body; background-color: var(--cor-orange); }
+.footer { grid-area: footer; background-color: var(--cor-white); }
