@@ -1,6 +1,6 @@
 # 🧩 CSS Grid Layout
 
-Este documento reúne os principais aprendizados sobre **CSS Grid** estudados no curso da **DevSamurai**. Ele apresenta explicações diretas, exemplos de código e comparações práticas.
+Este documento reúne os principais aprendizados sobre **CSS Grid** estudados no curso **DevSamurai**. Ele apresenta explicações diretas, exemplos de código e comparações práticas.
 
 ---
 
@@ -148,4 +148,4 @@ O CSS Grid é essencial para qualquer dev moderno que quer criar layouts profiss
 🗋 README.md
 ```
 
-##### Feito com 👨‍💻 por **Matheus Souza** - [@SouzaStack](https://github.com/SouzaStack)
+##### Feito com 💻 por **Matheus Souza** - [@SouzaStack](https://github.com/SouzaStack)
