@@ -27,7 +27,7 @@ O CSS Grid é um sistema de layout que permite distribuir elementos em linhas e 
 ## 📚 Tópicos Estudados
 
 ### `01 - Grid Template`
-Definição de linhas e colunas com `grid-template-rows` e `grid-template-columns`, ou de forma abreviada com `grid-template`.
+Definição de linhas e colunas de forma abreviada com `grid-template`.
 ```css
 .grid {
     display: grid; /* Ativa o Grid */
@@ -39,6 +39,7 @@ Essa declaração é o mesmo que:
 .grid {
 grid-template-rows: auto auto;
 grid-template-columns: auto auto;
+}
 ```
 Cria 2 linhas e 2 colunas com tamanhos automáticos, que se ajustam ao conteúdo.
 
