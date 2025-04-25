@@ -1,0 +1,14 @@
+@media (max-width: 720px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: 100vh;
+    }
+
+    /* Especificando cada altura */
+    .header { height: 15%; }
+    .nav { height: 5%; }
+    .body { height: 70%; }
+    .footer { height: 10%; }
+}
