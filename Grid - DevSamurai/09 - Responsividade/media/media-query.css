@@ -6,7 +6,7 @@
         height: 100vh;
     }
 
-    /* Especificando cada altura */
+/* Especificando cada altura */
     .header { height: 15%; }
     .nav { height: 5%; }
     .body { height: 70%; }
