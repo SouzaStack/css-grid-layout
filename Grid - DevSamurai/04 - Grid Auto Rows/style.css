@@ -31,8 +31,8 @@ body {
     grid-template-rows: 100px;
     grid-auto-rows: 100px; /* Auto Rows */
 
-    row-gap: 10px;
-    column-gap: 10px;
+    row-gap: 15px;
+    column-gap: 15px;
 
     width: 600px;
     height: 400px;
