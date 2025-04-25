@@ -29,38 +29,48 @@ O CSS Grid é um sistema de layout que permite distribuir elementos em linhas e 
 ### `01 - Grid Template`
 Definição de linhas e colunas com `grid-template-rows` e `grid-template-columns` na forma de **shorthand**.
 ```css
+.grid {
     display: grid; /* Ativa o Grid */
     grid-template: auto auto / auto auto; /* Grid Template */
+}
 ```
 
 ### `02 - Grid Gap`
 Controla o espaçamento entre as células da grade, tanto em linhas `row-gap: 10px` quanto em colunas `column-gap: 5px`.
 ```css
+.grid {
     gap: 10px 5px; /* Grid Gap */
+}
 ```
 
 ### `03 - Grid Auto Columns`
 Define a largura padrão das colunas que forem adicionadas automaticamente.
 ```css
+.grid {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-auto-columns: 100px; /* Auto Columns */
+}
 ```
 
 ### `04 - Grid Auto Rows`
 Define a altura padrão das linhas que forem criadas automaticamente.
 ```css
+.grid {
     display: grid;
     grid-template-columns: repeat(2, 100px);
     grid-auto-rows: 100px; /* Auto Rows */
+}
 ```
 
 ### `05 - Grid Auto Flow`
 Controla a direção em que os itens são automaticamente colocados: linha ou coluna.
 ```css
+.grid {
     display: grid;
     grid-template-columns: repeat(3, 200px);
     grid-auto-flow: column; /* Auto Flow */
+}
 ```
 
 ### `06 - Grid Column`
