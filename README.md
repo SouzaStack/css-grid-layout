@@ -1,30 +1,28 @@
 # 🧩 CSS Grid Layout
 
-Este documento reúne os principais aprendizados sobre **CSS Grid** estudados no curso **DevSamurai**. Ele apresenta explicações diretas, exemplos de código e comparações práticas.
+Este documento reúne os conhecimentos essenciais sobre Grid Layout adquiridos durante os estudos. Ele apresenta explicações diretas, exemplos de código e comparações práticas.
 
 ---
 
 ## 📌 O que é CSS Grid?
 
-O CSS Grid é um sistema de layout que permite distribuir elementos em linhas e colunas. Diferente do Flexbox (que é unidimensional), o Grid trabalha nos **dois eixos ao mesmo tempo**.
+O layout **CSS Grid** (ou apenas "**Grid**") é um sistema bidimensional baseado em uma "grade" (grid em inglês), e isso o torna muito útil pois assim trabalhamos com um layout em linhas e colunas (**rows** e **columns**). O layout Grid consiste de um elemento pai (**parent**) com um ou mais elementos filhos (**child elements**), portanto, o elemento pai é um **container**, e os elementos filhos são **items**.
 
 ---
 
 ## 🤔 CSS Grid vs Flexbox
 
-| Flexbox           | CSS Grid             |
+| CSS Grid           | Flexbox             |
 |-------------------|----------------------|
-| Unidimensional    | Bidimensional        |
-| Alinha em linha ou coluna | Alinha em linha **e** coluna |
-| Melhor para componentes | Melhor para estruturas maiores |
-
-**Sim!** É possível usar os dois ao mesmo tempo para obter layouts poderosos e flexíveis.
+| Bidimensional    | Unidimensional        |
+| Alinha em linha **e** coluna | Alinha em linha **ou** coluna |
+| Melhor para estruturas maiores | Melhor para componentes |
 
 ![Comparação CSS Grid vs Flexbox](./assets/comparativo-grid-flexbox.jpg)
 
 ---
 
-## 📚 Tópicos Estudados
+## 📚 O que Foi Estudado?
 
 ### `01 - Grid Template`
 Definição de linhas e colunas de forma abreviada com `grid-template`.
